@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre Botões e Códigos — Landing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Galeria do eBook</h1>
+    </header>
+
+    <main class="apresentacao">
+        <!-- 1. Título + Subtítulo -->
+        <h2 class="apresentacao__titulo">Entre Botões e Códigos</h2>
+        <p class="apresentacao__subtitulo">A arquitetura da experiência do cliente</p>
+
+        <!-- 2. Capa (destaque) -->
+        <section class="apresentacao__capa capa">
+            <h3 class="capa__titulo">Capa do eBook</h3>
+            <img class="capa__imagem" src="./assets/capa.png" alt="Capa do eBook Entre botões e códigos">
+        </section>
+
+        <!-- 3. Galeria (prova visual) -->
+        <section class="apresentacao__galeria galeria">
+            <h3 class="galeria__titulo">Galeria</h3>
+            <div class="galeria__lista">
+                <img class="galeria__imagem" src="./assets/preview1.png" alt="Prévia do eBook — página 1">
+                <img class="galeria__imagem" src="./assets/preview2.png" alt="Prévia do eBook — página 2">
+                <img class="galeria__imagem" src="./assets/preview3.png" alt="Prévia do eBook — página 3">
+                <img class="galeria__imagem" src="./assets/preview4.png" alt="Prévia do eBook — página 4">
+            </div>
+        </section>
+
+        <!-- 4. Descrição (contexto) -->
+        <section class="apresentacao__descricao descricao">
+            <h3 class="descricao__titulo">Descrição</h3>
+            <p class="descricao__texto">
+                "Entre botões e códigos" é um eBook prático sobre como a interface impacta
+                a eficiência operacional e a experiência do cliente. Escrito a partir da
+                perspectiva de quem opera sistemas de backoffice, atendimento e prevenção
+                a fraudes, o material mostra como pequenas melhorias de UX reduzem
+                retrabalho, erros e melhoram métricas operacionais.
+            </p><br>
+            <p class="descricao__texto">
+                <strong>22 páginas</strong> organizadas em 6 capítulos práticos: do mapeamento
+                da jornada às métricas que comprovam o impacto da interface.
+            </p>
+
+            <!-- 5. CTA (ação final -->
+            <div class="descricao__acoes">
+                <a class="botao" href="./assets/ebook.pdf" download="Entre-botoes-e-codigos.pdf">
+                    📥 Baixar PDF
+                </a>
+                <a class="botao botao--secundario" href="./assets/ebook.pdf" target="_blank">
+                    📖 Ler Online
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__atribuicao">© 2025 Bruno Sousa • Projeto DIO</p>
+    </footer>
+
+</body>
+
+</html>
