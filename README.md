@@ -74,9 +74,10 @@ Escrito a partir da visão de quem opera sistemas de **backoffice**, **atendimen
 
 ```
 ebook-entre-botoes-e-codigos/
-├── index.html              # Landing page principal
-├── style.css              # Estilos da página
-├── assets/                # Recursos do projeto
+├── index.html            # Landing page principal
+├── style.css             # Estilos da página
+├── assets/               # Recursos do projeto
+    ├── background.png    # Ilustração da capa    
 │   ├── ebook.pdf         # eBook completo (22 páginas)
 │   ├── capa.png          # Capa do eBook
 │   ├── preview1.png      # Screenshot página 1
